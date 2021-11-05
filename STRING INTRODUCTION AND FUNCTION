@@ -1,0 +1,161 @@
+#include<iostream>
+#include<algorithm>
+#include<string>
+
+
+using namespace std;
+
+int main(){
+
+         //  Declaration ------->>>>>>>>>>>>
+         //  1st--->>>>>>>
+
+
+       // string s ;
+       // cin>>s;
+       // cout<<s;
+   
+
+   // 2nd ---->>>>>>>
+
+    // string s = "vivek ";
+    // cout<<s;
+
+    //  3rd--------->>>>>>>>>>>>>
+
+    // string s(5, 'v') ;
+    //  cout<<s;
+
+    // 4th------>>>>>>>  input with spaces ----->>>>>>>>
+
+    // string s ; 
+    // getline(cin , s);
+    // cout<<s;
+
+    // now we will see the opertion  on the string  ---------->>>>>>>>>>>>>> 
+            
+            //  APPEND --------->>>>>>>
+             
+             // 1st ----->>>>>>>
+
+
+        //    string s  = "viv";
+        //    string s1 = "ek";
+
+        //   // s.append(s1);
+        //   // cout<<s;
+
+        //   //  we can also do this by plus sign ------->>>>>>>>
+        //    cout<<s+s1;
+
+        //   clear ----->>>>>>>>>
+
+        // 2nd ------->>>>>>>>
+
+        // string s = "vivek";
+        // s.clear();
+        // cout<<s;
+
+        //  comparison -------->>>>>>>>>>>
+
+        //  3rd------>>>>>>>.
+
+        // string s1 = "abc" ;
+        // string s2 = "";
+        
+        // cout<<s2.compare(s1);
+
+        //  empty --->>>>>>>>>>>
+
+        // 4th ----->>>>>>>>
+
+        // string s1 = "abc";
+        // s1.clear();
+        // cout<<s1.empty();
+        
+          
+        //  erase ----->>>>>>
+
+        //  5th ------>>>>>>>
+
+        //   string s1 = "family" ;
+         
+        //  s1.erase(1);
+        //  cout<<s1;
+
+        
+        // find
+        
+
+        //  6th ---->>>>>>
+
+        // string s1 = "vivek";
+        // cout<<s1.find("v");  //  it will gives the index --------->>>>>>>>
+
+         //  insert --->>>>>>>>
+
+         // 7th ---->>>>>>
+
+        //  string s1 = "nincompoop";
+        //  s1.insert(2 , "lol");
+        //  cout<<s1;
+
+        //  length----->>>>>>>
+
+        // 8th ------>>>>>>
+
+        // string s = "vivek";
+        // cout<<s.length();
+
+
+    //   substr --->>>>
+    // 9th ------>>>>>
+
+    // string s = "vivek";
+    // cout<<s.substr(1,3);
+
+
+
+
+
+
+  
+   //   string  to int ------>>>>>>>
+   //  10th ------->>>>>>
+
+//    string s = "45";
+//    int x = stoi(s);
+//    cout<<x+2;
+  
+
+
+  //   int to string ------>>>>>
+
+  // 11th ----->>>>>>>>
+  
+//   int  s = 45;
+//   cout<<to_string(s)+  " 2 "<<endl;
+
+
+
+
+
+  //  sorting a string ------>>>>>>>
+
+  // 12th ->>>>>>>>>>>>>
+
+//    string s  ="skdjienbrjhefvijvfn";
+
+//   sort(s.begin() , s.end());
+//   cout<<s;
+  
+
+  
+
+
+
+
+
+
+return 0;
+ }
