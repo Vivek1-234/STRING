@@ -1,0 +1,49 @@
+//  program to print the longest common prefix in the string ---------->>>>>>>>>>>>>>>>
+
+//  now let's see the code       ------>>>>>>>>>>>>>>
+
+#include<iostream>
+#include<string>
+#include<math.h>
+#include<climits>
+#include<vector>
+using namespace std;
+
+
+string longestcommonancestor(vector<string> v ){
+  int mi = INT_MAX;
+  if(v.size()==0){
+      return "";
+  }
+   string c = v[0];
+   for(int i =1 ;i<v.size() ; i++){
+       int k =0 ;
+       int a =0 ;
+       int j =0;
+
+    while(j<c.size() && k<v[i].size()){
+        if(c[j] == v[i][k]){
+            a++;
+        }
+        else{
+            break;
+        }
+        j++;
+        k++;
+  
+    }
+    mi = min(a, mi);
+   }
+  
+  return c.substr(0 , mi);
+
+
+}
+int main(){
+
+
+vector<string> v = {"flower" , "flower" ,"flow "};
+
+cout<<longestcommonancestor(v);
+return 0;
+ }
