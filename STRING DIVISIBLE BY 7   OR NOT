@@ -1,0 +1,41 @@
+#include<iostream>
+#include<string>
+using namespace std;
+ 
+ bool  divisibleornot(string s ){
+     long long  ans = 0 ; 
+     int digit =0 ; 
+
+     for(int i =0 ; i<s.length() ; i++){
+        digit = s[i] - '0' ;
+      
+        ans = ans*10 + digit;
+     
+        ans = ans%7;   
+        
+
+     }
+
+     if(ans == 0){
+
+         return true ;
+     }
+     else{
+         return false ; 
+     }
+ }
+
+int main(){
+
+  string s = "8955795758";
+ if(divisibleornot(s)){
+     cout<<"1"<<endl;
+ }
+     else{
+         cout<<"0"<<endl;
+     }
+    
+
+
+return 0;
+ }
